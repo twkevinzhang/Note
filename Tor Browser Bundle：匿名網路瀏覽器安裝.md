@@ -1,6 +1,7 @@
 # Tor Browser Bundle：匿名網路瀏覽器安裝
 ###### tags:`瀏覽器` `tor` `暗網` `vpn`
- 參考至:[https://blog.timshan.idv.tw/2014/01/how-to-tor-browser-bundletor.html](https://blog.timshan.idv.tw/2014/01/how-to-tor-browser-bundletor.html)
+ 參考至:
+  - https://blog.timshan.idv.tw/2014/01/how-to-tor-browser-bundletor.html
 
 ![](https://lh5.googleusercontent.com/Vun94fLYc_pSsP9qDByC1qlYQUpnDpx4HUK2indSNMbt_zEHmQX9XzAr1H7Qtq0m6ET-tlZ5NQGRUIK1zOWJ8ive0lRvEGoCuCZ8kAF2RmGJrQvJxRKRS1WveqYHO8MPA7Blkbb6hlNa2Ho_HA)
 
@@ -18,7 +19,7 @@
 
 *   支援平台：Windows (8, 7, Vista, XP), Apple OSX (10.6+), Linux, Unix, BSD
 
-*   下載頁面：[https://www.torproject.org/download/download-easy.html.en](https://www.torproject.org/download/download-easy.html.en)
+*   下載頁面：https://www.torproject.org/download/download-easy.html.en
 
 #### 注意事項
 
@@ -140,50 +141,24 @@ Torbutton Preference的部分，我們直接看到Security Settings分頁：第�
 
 如果各位還記得我前面所講的，Tor的目的是建立一個不被監聽的網路，但我現在所介紹的TBB只是Client端的部分，其實Tor也提供伺服器的匿名，也就是頂級網域.onion，只是若要存取該隱匿伺服器的內容，Client端也必須要使用Tor才行。這種做法的好處除了隱匿性之外，由於不需要公開的IP，因此在防火牆與NAT背後也可以正常運作。很多Tor使用者其實並非是需要匿名的網路瀏覽，而是受到這些.onion底下的Hidden Service吸引才使用Tor的，畢竟這可是名符其實的地下網路。以下是一些比較有名的Hidden Service：
 
-*   TorLinks:.onion網域的網站目錄。
+*   TorLinks:.onion網域的網站目錄: http://torlinksysgthcbz.onion/
 
-[http://torlinksysgthcbz.onion/](http://torlinksysgthcbz.onion/)
+*   Onion Url Repository：洋蔥網址庫: http://32rfckwuorlf4dlv.onion/
 
-*   Onion Url Repository：洋蔥網址庫
+*   Hidden Wiki: http://zqktlwi4fecvo6ri.onion/
 
-[http://32rfckwuorlf4dlv.onion/](http://32rfckwuorlf4dlv.onion/)
+*   Torch：專門搜尋.Onion網站的搜尋引擎: http://xmh57jrzrnw6insl.onion/
 
-*   Hidden Wiki:
+*   DuckDuckGo：匿名搜尋服務，並非搜尋.onion網域的搜尋引擎: http://3g2upl4pq6kufc4m.onion/
 
-[http://zqktlwi4fecvo6ri.onion/](http://zqktlwi4fecvo6ri.onion/)
+*   SMS4Tor：匿名的訊息加密服務，當網站提供的連結經開啟，訊息將會自動銷毀: http://sms4tor3vcr2geip.onion/
 
-*   Torch：專門搜尋.Onion網站的搜尋引擎。
+*   Facebook：臉書官方專門提供Tor使用者登入的網址: https://facebookcorewwwi.onion/
 
-[http://xmh57jrzrnw6insl.onion/](http://xmh57jrzrnw6insl.onion/)
+*   The Tor Library：Tor世界的圖書館: http://am4wuhz3zifexz5u.onion/
 
-*   DuckDuckGo：匿名搜尋服務，並非搜尋.onion網域的搜尋引擎。
+*   Mail2Tor：免費且匿名的電子郵件服務: http://mail2tor2zyjdctd.onion/
 
-[http://3g2upl4pq6kufc4m.onion/](http://3g2upl4pq6kufc4m.onion/)
+*   SIGAINT：免費的Squirrelmail服務，不需要Javascript: http://am4wuhz3zifexz5u.onion/
 
-*   SMS4Tor：匿名的訊息加密服務，當網站提供的連結經開啟，訊息將會自動銷毀。
-
-[http://sms4tor3vcr2geip.onion/](http://sms4tor3vcr2geip.onion/)
-
-*   Facebook：臉書官方專門提供Tor使用者登入的網址。
-
-[https://facebookcorewwwi.onion/](https://facebookcorewwwi.onion/)
-
-*   The Tor Library：Tor世界的圖書館
-
-[http://am4wuhz3zifexz5u.onion/](http://am4wuhz3zifexz5u.onion/)
-
-*   Mail2Tor：免費且匿名的電子郵件服務
-
-[http://mail2tor2zyjdctd.onion/](http://mail2tor2zyjdctd.onion/)
-
-*   SIGAINT：免費的Squirrelmail服務，不需要Javascript。
-
-[http://am4wuhz3zifexz5u.onion](http://am4wuhz3zifexz5u.onion/)
-
-*   Img.bi：使用AES-256加密圖片的圖片存放服務，縱使是直接進入伺服器的人也無法看到你上傳的圖片。
-
-[http://www.imgbifwwqoixh7te.onion/](http://www.imgbifwwqoixh7te.onion/)
-
-更多關於.Onion的問題，請自行到[http://www.reddit.com/r/onions/](http://www.reddit.com/r/onions/)找答案。
-
-本著作依據[Creative Commons 姓名標示-非商業性-相同方式分享授權條款](http://creativecommons.org/licenses/by-nc-sa/3.0/tw/)釋出
+*   Img.bi：使用AES-256加密圖片的圖片存放服務，縱使是直接進入伺服器的人也無法看到你上傳的圖片: http://www.imgbifwwqoixh7te.onion/

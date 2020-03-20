@@ -1,6 +1,7 @@
 # Linux-在Windows製作USB開機隨身碟
 ###### tags:`USB隨身碟開機` `linux` `windows` `開機` `開機選單` `重灌準備`
- 參考至:[https://ithelp.ithome.com.tw/articles/10157913](https://ithelp.ithome.com.tw/articles/10157913)
+ 參考至:
+  - https://ithelp.ithome.com.tw/articles/10157913
 
 1\. 隨身碟插上
 

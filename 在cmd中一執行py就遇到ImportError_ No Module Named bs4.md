@@ -26,6 +26,5 @@
 
 ## 參考：
 
-[https://stackoverflow.com/questions/11783875/importerror-no-module-named-bs4-beautifulsoup](https://stackoverflow.com/questions/11783875/importerror-no-module-named-bs4-beautifulsoup)
-
-[https://blog.csdn.net/You_are_my_dream/article/details/53029233](https://blog.csdn.net/You_are_my_dream/article/details/53029233)
+ - https://stackoverflow.com/questions/11783875/importerror-no-module-named-bs4-beautifulsoup
+ - https://blog.csdn.net/You_are_my_dream/article/details/53029233

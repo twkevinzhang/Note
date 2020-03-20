@@ -1,6 +1,7 @@
 # win7-預約關機
 ###### tags: `cmd` `windows` `win7` `預約關機`
- 參考至:[http://dreamtails.pixnet.net/blog/post/26178309-windows-7-%E4%BD%BF%E7%94%A8%E6%8C%87%E4%BB%A4%E8%AE%93%E5%AE%83%E9%A0%90%E7%B4%84%E9%97%9C%E6%A9%9F%21](http://dreamtails.pixnet.net/blog/post/26178309-windows-7-%E4%BD%BF%E7%94%A8%E6%8C%87%E4%BB%A4%E8%AE%93%E5%AE%83%E9%A0%90%E7%B4%84%E9%97%9C%E6%A9%9F%21)
+ 參考至:
+  - http://dreamtails.pixnet.net/blog/post/26178309-windows-7-使用指令讓它預約關機!
 
 #### step 1.
 

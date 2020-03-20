@@ -1,6 +1,7 @@
 # Genymotion聯網設定
 ###### tags: `虛擬機` `網路設定` `Genymotion` `Android` `Virtual Box`
- 參考至:[https://www.readhouse.net/post/431730/](https://www.readhouse.net/post/431730/)
+ 參考至:
+ 　- https://www.readhouse.net/post/431730/
 
 開啟Virtual Box，選中相應的虛擬機器，點選上側工具欄中的 設定  ->網路
 

@@ -1,6 +1,7 @@
 # 把電子報轉成RSS訂閱
 ###### tags: `架站` `rss` `blog`
- 參考至:[http://blog.pulipuli.info/2013/12/rss-forward-e-mail-newsletter-to-rss.html](http://blog.pulipuli.info/2013/12/rss-forward-e-mail-newsletter-to-rss.html)
+ 參考至:
+  - http://blog.pulipuli.info/2013/12/rss-forward-e-mail-newsletter-to-rss.html
 
 #### 情境說明與事前準備 / Preparing
 

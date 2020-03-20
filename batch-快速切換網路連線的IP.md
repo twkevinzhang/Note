@@ -1,7 +1,7 @@
 # batch-快速切換網路連線的IP
 ###### tags: `batch` `網路` `IP` `windows` `win7`
  參考至:
-[http://blog.xuite.net/yh96301/blog/240237360-%E5%BF%AB%E9%80%9F%E5%88%87%E6%8F%9BWindows%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E7%9A%84IP](http://blog.xuite.net/yh96301/blog/240237360-%E5%BF%AB%E9%80%9F%E5%88%87%E6%8F%9BWindows%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E7%9A%84IP)
+ - http://blog.xuite.net/yh96301/blog/240237360-快速切換Windows網路連線的IP
 
 只要使用Windows內建的命令「netsh」建立自動執行批次檔，就可以快速切換網路連線的IP，詳細操作說明如下：
 

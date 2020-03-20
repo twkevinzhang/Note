@@ -2,7 +2,7 @@
 ###### tags: `更新` `開機` `error` 
 #### 第一招：安全模式
 
-正常模式進不了桌面那我們就先試一下安全模式，要進安全模式請在開機的時候按住 ［F8］ ，系統就會出現這個「進階開機選項」：![](https://lh6.googleusercontent.com/6gkIHiMcjbr6lYRMM2-h6maJtXVDwa2UiafzVSK1Iqpah8q9F82pk6MrJ9cl1usmVX8Pf8Y2ll0GrLA7Q_ycEnKNjSdq2cEZfWbA7yfZ3bURUGgcJdLgvvyDHJ7lyIhzlrm03Rol)
+正常模式進不了桌面那我們就先試一下安全模式，要進安全模式請在開機的時候按住 [F8] ，系統就會出現這個「進階開機選項」：![](https://lh6.googleusercontent.com/6gkIHiMcjbr6lYRMM2-h6maJtXVDwa2UiafzVSK1Iqpah8q9F82pk6MrJ9cl1usmVX8Pf8Y2ll0GrLA7Q_ycEnKNjSdq2cEZfWbA7yfZ3bURUGgcJdLgvvyDHJ7lyIhzlrm03Rol)
 
 註：華碩主機板按 [F8] 會先出現另一個開機裝置的選單，請看選取硬碟開機，然後馬上再按下 [F8] 才會出現這個開機選單，記得「馬上」哦!請選擇後面什麼都沒有的［安全模式］，有時候進安全模式什麼都不用作，再重開機電腦就正常了！
 

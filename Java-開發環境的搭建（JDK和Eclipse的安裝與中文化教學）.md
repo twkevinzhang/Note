@@ -1,6 +1,7 @@
 # Java-開發環境的搭建（JDK和Eclipse的安裝與中文化教學）
 ###### tags:`IDE` `Eclipse` `Java` `JDK`
- 參考至:[http://www.weixueyuan.net/view/5945.html](http://www.weixueyuan.net/view/5945.html)
+ 參考至:
+  - http://www.weixueyuan.net/view/5945.html
 
 要進行Java開發，首先要安裝JDK（Java Development Kit，Java開發工具箱）。
 
@@ -22,7 +23,7 @@ JDK所提供的部分工具：
 
 ## JDK 的下載
 
-JDK有不同的版本（J2SE、J2EE、J2ME），初學Java，一般都選擇J2SE。J2SE的下載地址為：[http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+JDK有不同的版本（J2SE、J2EE、J2ME），初學Java，一般都選擇J2SE。J2SE的下載地址為：http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
 打開網址，會看到如下所示的頁面：
 
@@ -96,7 +97,7 @@ Eclipse 開源免費，使用人數最多，提供了豐富的外掛程式和友
 
 注意：一定要設置環境變數，Eclipse 的運行依賴於這些環境變數。
 
-Eclipse的下載地址為：[http://www.eclipse.org/downloads/](http://www.eclipse.org/downloads/)
+Eclipse的下載地址為：http://www.eclipse.org/downloads/
 
 打開連結，看到下面的頁面：
 
@@ -118,7 +119,7 @@ Eclipse 是免安裝的，你可以將下載的壓縮檔解壓到任意目錄，
 
 Eclipse 默認是英文的，如果你的英文能力比較弱，可以安裝簡體中文語言包。不過我建議你使用英文版，作為程式師，你絕對有必要提高你的英文水準，很多技術文檔都是英文的，只要持之以恆，很快就能提高你的英文閱讀能力。
 
-語言包的下載位址為：[http://www.eclipse.org/babel/downloads.php](http://www.eclipse.org/babel/downloads.php)
+語言包的下載位址為：http://www.eclipse.org/babel/downloads.php
 
 首先查看你當前安裝的Eclipse的版本。在Eclipse功能表列中選擇“Help --> About Eclipse”，彈出一個對話方塊：
 

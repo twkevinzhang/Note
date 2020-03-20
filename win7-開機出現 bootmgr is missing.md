@@ -1,12 +1,14 @@
 # win7-開機出現 bootmgr is missing
 ###### tags:`開機` `error` `win7` `windows`
- 原因分析:
+
+以下參考至:
+ - http://bacat.pixnet.net/blog/post/38678181-開機出現-bootmgr-is-missing-(win-7)
+
+#### 原因分析:
 
 1. 沒有安裝作業系統
 
 2. 有安裝作業系統，但硬碟中放系統的那塊磁區剛好壞掉
-
-以下參考至:[http://bacat.pixnet.net/blog/post/38678181-%E9%96%8B%E6%A9%9F%E5%87%BA%E7%8F%BE-bootmgr-is-missing-(win-7)](http://bacat.pixnet.net/blog/post/38678181-%E9%96%8B%E6%A9%9F%E5%87%BA%E7%8F%BE-bootmgr-is-missing-(win-7))
 
 #### 方法1:
 

@@ -1,6 +1,7 @@
 # Android Studio-Error while Installing APKs
 ###### tags:`Android Studio` `IDE` `error`
- 參考至:[https://dotblogs.com.tw/jgame2012/archive/2012/04/06/71311.aspx](https://dotblogs.com.tw/jgame2012/archive/2012/04/06/71311.aspx)
+ 參考至:
+  - https://dotblogs.com.tw/jgame2012/archive/2012/04/06/71311.aspx
 
 ### 如下問題:
 

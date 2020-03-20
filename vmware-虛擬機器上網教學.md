@@ -1,6 +1,7 @@
 # vmware-虛擬機器上網教學
 ###### tags: `虛擬機` `vmware` `網路`
- 參考至:[http://blog.xuite.net/r413318/justforfun/35138059-%5B%E5%88%86%E4%BA%AB%5D%E8%A7%A3%E6%B1%BAVMWare%E4%B8%8D%E8%83%BD%E4%B8%8A%E7%B6%B2](http://blog.xuite.net/r413318/justforfun/35138059-%5B%E5%88%86%E4%BA%AB%5D%E8%A7%A3%E6%B1%BAVMWare%E4%B8%8D%E8%83%BD%E4%B8%8A%E7%B6%B2)
+ 參考至:
+  - http://blog.xuite.net/r413318/justforfun/35138059-[分享]解決VMWare不能上網
 
     簡單的說就是讓我們可以上網的那個IP分享網路給VMWare用 ，這樣VMWare也就能透過那個可以上網的IP上網了!!
 

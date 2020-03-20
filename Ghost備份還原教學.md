@@ -1,6 +1,7 @@
 # Ghost備份還原教學
 ###### tags: `重灌準備` `Ghost`
- 參考至:[http://brian6724.pixnet.net/blog/post/7052815-ghost-%E5%82%99%E4%BB%BD%E9%82%84%E5%8E%9F%E6%95%99%E5%AD%B8...](http://brian6724.pixnet.net/blog/post/7052815-ghost-%E5%82%99%E4%BB%BD%E9%82%84%E5%8E%9F%E6%95%99%E5%AD%B8...)
+ 參考至:
+  - http://brian6724.pixnet.net/blog/post/7052815-ghost-%E5%82%99%E4%BB%BD%E9%82%84%E5%8E%9F%E6%95%99%E5%AD%B8...
 
 (未嘗試)
 

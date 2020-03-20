@@ -1,6 +1,7 @@
 # Android Studio-SDK directory does not exists
 ###### tags:`Android Studio` `IDE` `error`
- 參考至:[https://blog.csdn.net/dotphoenix/article/details/50378132](https://blog.csdn.net/dotphoenix/article/details/50378132)
+ 參考至:
+  - https://blog.csdn.net/dotphoenix/article/details/50378132
 
 ### 如下問題:
 

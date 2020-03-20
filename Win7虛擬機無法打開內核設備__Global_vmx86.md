@@ -1,6 +1,7 @@
 # Win7虛擬機無法打開內核設備:\\Global\\vmx86
 ###### tags:`虛擬機` `windows` `win7` `error`
- 參考至:[https://jingyan.baidu.com/article/3d69c5518b8bfef0cf02d7e1.html](https://jingyan.baidu.com/article/3d69c5518b8bfef0cf02d7e1.html)
+ 參考至:
+  - https://jingyan.baidu.com/article/3d69c5518b8bfef0cf02d7e1.html
 
 ### step.1
 

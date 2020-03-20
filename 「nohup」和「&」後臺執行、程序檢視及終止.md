@@ -1,4 +1,5 @@
 # 「nohup」和「&」後臺執行、程序檢視及終止
+###### tags:`Linux` `cmd`
 參考至:
  - https://www.itread01.com/content/1548984246.html
  - https://dragonspring.pixnet.net/blog/post/33257496

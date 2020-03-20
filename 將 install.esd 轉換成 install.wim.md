@@ -1,6 +1,7 @@
 # 將 install.esd 轉換成 install.wim
 ###### tags:`重灌準備`
-參考至:[http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793](http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793)
+參考至:
+ - http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793
 
 製作好的 ESD 安裝映像檔如果要修改的話，就要轉換成 WIM 檔，才能進行掛載及修改。
 

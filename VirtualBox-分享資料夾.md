@@ -1,6 +1,7 @@
 # VirtualBox-分享資料夾
 ###### tags:`虛擬機` `VirtualBox` `共用資料夾`
- 參考至:[http://mh-resource.blogspot.com/2012/02/virtualbox-xp.html](http://mh-resource.blogspot.com/2012/02/virtualbox-xp.html)
+ 參考至:
+  - http://mh-resource.blogspot.com/2012/02/virtualbox-xp.html
 
 有使用過虛擬電腦的一定知道Oracle VirtualBox這款虛擬機器軟體，VirtualBox能夠安裝多個客戶端作業系統，不過主端作業系統與客戶端作業系統想要互相分享資料該怎麼辦呢?這時就要分享資料夾的功能，此資料夾就像是一個門，連接虛擬電腦與主端電腦，藉由分享資料夾的功能來交換檔案
 

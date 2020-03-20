@@ -1,6 +1,7 @@
 # SQL-NOT EXISTS 怎麼用？
 ###### tags: `sql`
- 參考至:[http://frankiestudy.blogspot.com/2012/01/sql-not-exists.html](http://frankiestudy.blogspot.com/2012/01/sql-not-exists.html)
+ 參考至:
+  - http://frankiestudy.blogspot.com/2012/01/sql-not-exists.html
 
 我們先來看看 Product 資料表裡面的內容。
 

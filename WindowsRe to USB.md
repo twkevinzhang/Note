@@ -3,9 +3,8 @@
 以下以windows7 x64為例，實測windows10也可以使用
 
 參考至:
-*   [http://iammic.pixnet.net/blog/post/65789494-%E6%89%8B%E5%8B%95%E5%BB%BA%E7%AB%8B-windows7-x64-usb-%E9%96%8B%E6%A9%9F%28%E6%95%91%E6%8F%B4%29%E9%9A%A8%E8%BA%AB%E7%A2%9F%28legacy](http://iammic.pixnet.net/blog/post/65789494-%E6%89%8B%E5%8B%95%E5%BB%BA%E7%AB%8B-windows7-x64-usb-%E9%96%8B%E6%A9%9F%28%E6%95%91%E6%8F%B4%29%E9%9A%A8%E8%BA%AB%E7%A2%9F%28legacy)
-
-*   [http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793](http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793)
+ - http://iammic.pixnet.net/blog/post/65789494-%E6%89%8B%E5%8B%95%E5%BB%BA%E7%AB%8B-windows7-x64-usb-%E9%96%8B%E6%A9%9F%28%E6%95%91%E6%8F%B4%29%E9%9A%A8%E8%BA%AB%E7%A2%9F%28legacy
+  - http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793
 
 ## 注意
 
@@ -65,8 +64,9 @@
 
 如果沒有install.wim:
 
-*   [http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793](http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793)
-*   [https://drive.google.com/open?id=1GeEdyGkHVpz9dqpZKgGdpqlooe2LknbTFS4FRZpGCHY](https://drive.google.com/open?id=1GeEdyGkHVpz9dqpZKgGdpqlooe2LknbTFS4FRZpGCHY)
+ - http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793
+ - https://drive.google.com/open?id=1GeEdyGkHVpz9dqpZKgGdpqlooe2LknbTFS4FRZpGCHY
+
 3.  輸入 `dism /mount-wim /wimfile:c:\install.wim /index:1 /mountdir:c:\test`  將 install.wim mount 到 c:\test 目錄
 
 
@@ -87,8 +87,8 @@
 
 1.  開啟 Bootice 程式，選擇 BCD 編輯頁籤 -> 其他BCD檔案 -> 選擇 e:\boot\bcd後點選高級編輯模式。可到以下網址下載:
 
-*   [https://sites.google.com/site/gbrtools/home/software/bootice-portable/bootice-downloads](https://sites.google.com/site/gbrtools/home/software/bootice-portable/bootice-downloads)
-*   [https://drive.google.com/open?id=15k_GShK8hFW7uWxlzixaXhw593S0c6s2](https://drive.google.com/open?id=15k_GShK8hFW7uWxlzixaXhw593S0c6s2)
+ - https://sites.google.com/site/gbrtools/home/software/bootice-portable/bootice-downloads
+ - https://drive.google.com/open?id=15k_GShK8hFW7uWxlzixaXhw593S0c6s2
 
 ![](https://lh4.googleusercontent.com/oKfwMKl7DOoNQHC9UNjVrItj-pxRc3I_UEX3Vv6FXEDbpvBlev8l-vt92EOCghyfSDdq13y-bIIbUZIQxhR4NS0kxBYKjh_MHxCXjTvHWA8W6ETq_r94f2QXbRLObl6ood-JgirM)
 
@@ -138,23 +138,19 @@ Winre 開機後會檢查 Windows 版本，來決定是否進入 Winre 系統，�
 2.  輸入 `attrib –r c:\test\Windows\System32\winpeshl.ini` 取消檔案唯讀
 3.  輸入 `notepad c:\test\Windows\System32\winpeshl.ini`
 
-
-
 ![](https://lh6.googleusercontent.com/pM5hSwN2lMRlSiuM86VJREsDQ9KmQlyvmxh7oF4E0Clf0lPk5boVfyr2A9Zg4dy6a0Xxuvlp_8GlVKfXxLN_deEzMUDaxWD6qx3FbkkqfpGfcwxgYfQpy9x2s5pqPgizhWl06YiX)
 
 4.  將下方 AppPath 路徑改為 cmd.exe 路徑
 更改前：
-```
-[LaunchApp]
 
-AppPath=X:\sources\recovery\recenv.exe
-```
+    [LaunchApp]
+
+    AppPath=X:\sources\recovery\recenv.exe
+
 更改後：
-```
-[LaunchApp]
+    [LaunchApp]
 
-AppPath=X:\Windows\System32\cmd.exe
-```
+    AppPath=X:\Windows\System32\cmd.exe
 
 5.  輸入 `dism /unmount-wim /mountdir:c:\test /commit` 將 winre.wim 檔案 unmount
 

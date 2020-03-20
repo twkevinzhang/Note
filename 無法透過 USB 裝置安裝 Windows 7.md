@@ -1,6 +1,7 @@
 # 無法透過 USB 裝置安裝 Windows 7
 ###### tags: `重灌` `win7` `windows` `重灌準備` `USB開機隨身碟`
- 參考至:[https://www.gigabyte.com/tw/Support/FAQ/3459](https://www.gigabyte.com/tw/Support/FAQ/3459)
+ 參考至:
+  - https://www.gigabyte.com/tw/Support/FAQ/3459
 
 無法透過 USB 裝置安裝 Windows 7。
 
@@ -26,13 +27,14 @@
 
 詳細步驟可參考[此連結](http://gigabytedailycht.blogspot.tw/2015/09/windows-image-tool-win-7100.html)。
 
-參考至:[http://gigabytedailycht.blogspot.com/2015/08/100windows-7-usb.html](http://gigabytedailycht.blogspot.com/2015/08/100windows-7-usb.html)
+參考至:
+- http://gigabytedailycht.blogspot.com/2015/08/100windows-7-usb.html
 
 前些日子，我們發表了一篇如何將XHCI驅動程式包進Windows 7 USB安裝碟，讓它可以安裝在100系列平台的[教學文章](http://gigabytedailycht.blogspot.tw/2015/08/100windows-7-usb.html)。雖然筆者已經盡量將步驟以白話文呈現了，但是整個流程還是落落長，而且又要解壓縮、又要建立資料夾，又要下指令的...感覺就不是那麼容易親近。讓大家不禁在心裡大喊，難道沒有更簡單的方法嗎？？？
 
 有的，大家可使用技嘉最新上傳到官網的Windows Image Tool 這個工具軟體
 
-[http://download.gigabyte.us/FileList/Utility/mb_utility_windowsimagetool_z370.zip](http://download.gigabyte.us/FileList/Utility/mb_utility_windowsimagetool_z370.zip)
+http://download.gigabyte.us/FileList/Utility/mb_utility_windowsimagetool_z370.zip
 
 它可以讓您在幾個步驟內，輕鬆建立已經將XHCI驅動程式包進Windows 7 已經的USB安裝碟，讓您輕鬆達成想要的目的！
 

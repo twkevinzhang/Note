@@ -1,6 +1,7 @@
 # windows-更改命令提示字元的預設路徑
 ###### tags:`cmd` `windows` 
- 參考至:[https://www.foolegg.com/how-to-change-the-default-path-of-command-prompt-cmd/](https://www.foolegg.com/how-to-change-the-default-path-of-command-prompt-cmd/)
+ 參考至:
+  - https://www.foolegg.com/how-to-change-the-default-path-of-command-prompt-cmd/
 
 [![更改命令提示字元的預設路徑](https://lh5.googleusercontent.com/Tl1KwkJ8DrsVsO2tvZEepHBeYkslY_ZekBxwWV1LL9RTe3auE8zYtNmws-HQtNJjAdXRaONyZFXdSV002D94d2T79CP596uMdwSce_J6GAjOs393dd9EHs-Gq5uuQqHAlDM9SQGm "更改命令提示字元的預設路徑")](https://www.foolegg.com/how-to-change-the-default-path-of-command-prompt-cmd/)
 

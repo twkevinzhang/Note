@@ -1,10 +1,10 @@
 # VMware Workstation and Device/Credential Guard are not compatible
 
 ### 參考至
-    https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/554123/
+ - https://codertw.com/程式語言/554123/
 
 ### 錯誤訊息
-    VMware Workstation和Device / Credential Guard不相容。禁用Device / Credential Guard後，可以執行VMware Workstation。
+> VMware Workstation和Device / Credential Guard不相容。禁用Device / Credential Guard後，可以執行VMware Workstation。
 
 ### 原因
 1. 出現此問題的原因是Device Guard或Credential Guard與Workstation不相容。

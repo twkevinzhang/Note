@@ -1,7 +1,8 @@
 # windows-如何調整開機選單及進入安全模式
 ###### tags:`開機選單` `windows` `開機` `安全模式`
 
- 參考至:[http://george017.pixnet.net/blog/post/111217963-%E5%A6%82%E4%BD%95%E8%AA%BF%E6%95%B4%E9%96%8B%E6%A9%9F%E9%81%B8%E5%96%AE%E5%8F%8A%E9%80%B2%E5%85%A5%E5%AE%89%E5%85%A8%E6%A8%A1%E5%BC%8F](http://george017.pixnet.net/blog/post/111217963-%E5%A6%82%E4%BD%95%E8%AA%BF%E6%95%B4%E9%96%8B%E6%A9%9F%E9%81%B8%E5%96%AE%E5%8F%8A%E9%80%B2%E5%85%A5%E5%AE%89%E5%85%A8%E6%A8%A1%E5%BC%8F)
+ 參考至:
+  - http://george017.pixnet.net/blog/post/111217963-如何調整開機選單及進入安全模式
 
 [![btmn00](https://lh5.googleusercontent.com/ICO-QCZ4eZD7k4-RlAFphlRzueC_lRuz-sOYOedY8I9bnxN0FNvF-uKFkWnKEKaSlsLDFoP9fjxYd2hVtePqOWxSeE_ivcgzqh8-ecgKmdq2f0TT35HAJ9FHmNPSuZpu0UrVzIw1 "btmn00")](http://george017.pixnet.net/blog/post/111217963-%E5%A6%82%E4%BD%95%E8%AA%BF%E6%95%B4%E9%96%8B%E6%A9%9F%E9%81%B8%E5%96%AE%E5%8F%8A%E9%80%B2%E5%85%A5%E5%AE%89%E5%85%A8%E6%A8%A1%E5%BC%8F) 
 
@@ -12,36 +13,6 @@
 對於Windows 10 1703版的使用者，也可以參考筆者在「2017 Week 3雜記」這篇所做的補充。
 
 #### 安全模式：
-
-**或是對著開始按右鍵「命令提示字元（系統管理員）」(Windows 8.1/10)**
-
-**也可以「開始畫面」、「所有應用程式」、「命令提示字元」、「以系統管理員身分執行」(Windows 8/8.1)**
-
-切換成傳統樣式
-
-切換成標準樣式
-
-2.4.請關機後再次啟動（不要直接重新啟動），使變更生效。
-
-**2017/05/17再次測試，在Windows 10 1703中，把2.3指令中的{default}改成{current}，然後（直接重新啟動）是可以成功的，所以如果用{default}無效就試試這個吧！
-
-關閉該開機模式中的Hyper-V
-
-開啟該開機模式中的Hyper-V
-
-safeboot:minimal/sos/booting/noquiboot
-
-safeboot:network/sos/booting/noquiboot
-
-safeboot:minimal(alternateshell)/sos/booting/noquiboot
-
-bootlog
-
-basevideo
-
-safeboot:dsrepair/sos
-
-debug
 
 安全模式是一個減少背景程式(包含一些類型的驅動程式、病毒、惡意程式等)預先載入的特殊模式，因此可以用來進行移除程式、掃描系統等作業。安全模式也因為這些特性成為使用者自救的工具之一。
 
@@ -134,6 +105,10 @@ Windows XP、Windows Vista、Windows 7、Windows 8/8.1、Windows 10或更新的W
 
 **您可以在「開始」、「附屬應用程式」、「命令提示字元」、右鍵「以系統管理員身分執行」(Windows Vista/7)**
 
+**或是對著開始按右鍵「命令提示字元（系統管理員）」(Windows 8.1/10)**
+
+**也可以「開始畫面」、「所有應用程式」、「命令提示字元」、「以系統管理員身分執行」(Windows 8/8.1)**
+
 1.(b).3.輸入bcdedit以顯示所有開機相關的資訊
 
 ![btmn16](https://lh6.googleusercontent.com/V2WLXfu4WKHU9tCCdsADtuLV-qfDU4mpnlLKZUm6jyPkFa_L3JcmGwXnnLaKp-CaHgZpRB4CEbzMrcfhmYzflr4Rn72MZqKpepEyrv5RaAA77CV4RIcUPAHVj7EpWFQtCz1CFUO7 "btmn16") 
@@ -178,13 +153,37 @@ bcdedit /set {identifier} description "你要的名稱"
 
 2.3.使用下列指令來切換開機選單的樣式（預設為標準）
 
-bcdedit /set {default} bootmenupolicy legacy
+切換成傳統樣式: 
+`bcdedit /set {default} bootmenupolicy legacy`
 
-bcdedit /set {default} bootmenupolicy standard
+切換成標準樣式:
+`bcdedit /set {default} bootmenupolicy standard`
 
 ![btmn48](https://lh6.googleusercontent.com/7bh6R1G95t_6Z-uM11VGI2wHOEBJdThil-jSFGcewRFfqf7Kck9Vevn3lv-piCSoBycTmEDjeuyZDNRZNpJMXirCQxtX0yuL_VYPQOPHa374D-3B__KBCayIZGUeCODTWPmg7pf7 "btmn48") 
 
 ![btmn41](https://lh3.googleusercontent.com/4eoyZuyzy4CeRNjGYgMLTgC1PQPK_x2ceYfhrBaxYm1f8KO5GiSVezrZZcoJ6ePPfPe0Pr9LU0voaEr52Ya07zvMB6uRCzf5KZDZcepEwXqGquAdCePLrpW2GL6iIXyRfnWUc5aS "btmn41") 
+
+2.4.請關機後再次啟動（不要直接重新啟動），使變更生效。
+
+**2017/05/17再次測試，在Windows 10 1703中，把2.3指令中的{default}改成{current}，然後（直接重新啟動）是可以成功的，所以如果用{default}無效就試試這個吧！
+
+關閉該開機模式中的Hyper-V
+
+開啟該開機模式中的Hyper-V
+
+    safeboot:minimal/sos/booting/noquiboot
+
+    safeboot:network/sos/booting/noquiboot
+
+    safeboot:minimal(alternateshell)/sos/booting/noquiboot
+
+    bootlog
+
+    basevideo
+
+    safeboot:dsrepair/sos
+
+    debug
 
 #### 3.關閉Hyper-V虛擬機的方法
 

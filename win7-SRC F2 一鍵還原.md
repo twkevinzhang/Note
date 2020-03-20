@@ -1,6 +1,7 @@
 # win7-SRC F2 一鍵還原
 ###### tags: `重灌準備` `windows` `win7` `SRC`
- 參考至:[https://iblog.ph-wbc.com/windows-7-src-f2/](https://iblog.ph-wbc.com/windows-7-src-f2/)
+ 參考至:
+  - https://iblog.ph-wbc.com/windows-7-src-f2/
 
 (未嘗試)
 
@@ -12,7 +13,7 @@
 
 2.  XPE工具… 通用 PE工具 (分割磁區用) 。下載點：http://www.tongyongpe.com/
 
-3.  SRC F2 一鍵還原工具。下載點：[https://mega.nz/#!XsZhgYgR!Vo1xYAxHmGdFs5iaUEuxJsS_xktuYG6FFKs62rQRdOY](https://mega.nz/#!XsZhgYgR!Vo1xYAxHmGdFs5iaUEuxJsS_xktuYG6FFKs62rQRdOY)
+3.  SRC F2 一鍵還原工具。下載點：https://mega.nz/#!XsZhgYgR!Vo1xYAxHmGdFs5iaUEuxJsS_xktuYG6FFKs62rQRdOY
 
 #### 分割磁碟
 

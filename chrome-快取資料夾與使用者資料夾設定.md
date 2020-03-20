@@ -1,7 +1,8 @@
 # chrome-快取資料夾與使用者資料夾設定
 ###### tags: `瀏覽器` `chrome` `temp`
 
- 參考至:[http://sppmsppm.blogspot.com/2015/02/chrome.html](http://sppmsppm.blogspot.com/2015/02/chrome.html)
+ 參考至:
+  - http://sppmsppm.blogspot.com/2015/02/chrome.html
 
 這個方法就是將原來的預設路徑 改成指向你想要路徑的捷徑
 

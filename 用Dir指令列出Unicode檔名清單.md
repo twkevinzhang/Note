@@ -1,5 +1,5 @@
 # 用Dir指令列出Unicode檔名清單
-###### tags:`cmd`
+###### tags:`cmd` `Windwos`
  參考至：[http://pbice.blogspot.com/2010/11/dirunicode.html](http://pbice.blogspot.com/2010/11/dirunicode.html)
 
 

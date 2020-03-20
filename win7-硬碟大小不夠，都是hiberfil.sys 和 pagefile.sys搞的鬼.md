@@ -1,6 +1,7 @@
 # win7-硬碟大小不夠，都是hiberfil.sys 和 pagefile.sys搞的鬼
 ###### tags: `win7` `windows` `硬碟`
- 參考至:[http://dreamyeh.pixnet.net/blog/post/28462639-%5B%E6%8A%80%E8%A1%93%5D-%E9%97%9C%E9%96%89windows7%E7%9A%84hiberfil.sys-%E5%92%8C-pagefile.sys](http://dreamyeh.pixnet.net/blog/post/28462639-%5B%E6%8A%80%E8%A1%93%5D-%E9%97%9C%E9%96%89windows7%E7%9A%84hiberfil.sys-%E5%92%8C-pagefile.sys)
+ 參考至:
+  - http://dreamyeh.pixnet.net/blog/post/28462639-%5B%E6%8A%80%E8%A1%93%5D-%E9%97%9C%E9%96%89windows7%E7%9A%84hiberfil.sys-%E5%92%8C-pagefile.sys
 
 #### 一、問題描述
 
