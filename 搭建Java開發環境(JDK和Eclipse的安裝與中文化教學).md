@@ -1,4 +1,4 @@
-# Java-開發環境的搭建（JDK和Eclipse的安裝與中文化教學）
+# 搭建Java開發環境（JDK和Eclipse的安裝與中文化教學）
 ###### tags:`IDE` `Eclipse` `Java` `JDK`
  參考至:
   - http://www.weixueyuan.net/view/5945.html
@@ -27,7 +27,7 @@ JDK有不同的版本（J2SE、J2EE、J2ME），初學Java，一般都選擇J2SE
 
 打開網址，會看到如下所示的頁面：
 
-![](https://lh6.googleusercontent.com/vmuzibhRqRVucz6GDNYEkp2RwQzjHFgRawcJCHxBmesjIV9zHZIz_Inv40GqPflcMbupdQ6Upl0CPxeuriCL6q06amKVQFhibU1Cc7LuAzE7uexpdL_zOrzPC_0zzmdvORl4yob6)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/1.png)
 
  > 圖1  J2SE(Java SE)下載頁面
 
@@ -39,7 +39,7 @@ JDK有不同的版本（J2SE、J2EE、J2ME），初學Java，一般都選擇J2SE
 
 按兩下下載好的安裝包進行安裝，點擊“下一步”，出現如下圖所示的介面：
 
-![](https://lh4.googleusercontent.com/l-R6x0sI03hN802BOSA-cSQmoyonsE7QTjZUNEF5ZLlgnB8j8KRF2AgtA0HLbaJ20zX4dn2h4M9wqJ3APf5nYGQ28RCLYIrhkiK_r0YDDe9Szbztk_m12FTmr0ms9cUrKP_mnbjL)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/2.png)
 
  > 圖2  改變安裝目錄
 
@@ -49,25 +49,25 @@ JDK有不同的版本（J2SE、J2EE、J2ME），初學Java，一般都選擇J2SE
 
 點擊“下一步”，等待安裝。
 
-![](https://lh5.googleusercontent.com/9P_MzfRfmDqNDmVuz0usonS82DJgNeMvnzyr9Wxq4LqTro0hv-UxsnK2Dtmr2KajJ-3nd166SwKKg9anrCA3YZRiYAiGHJVLlxE-u9ntzBnC8mN3SjvJ5co_VhZIaSRDNlxBbZzm)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/3.png)
 
  > 圖3  正在安裝
 
 JDK安裝完成後，會提示你是否安裝JRE，如下圖所示：
 
-![](https://lh5.googleusercontent.com/xBeicwxatC_RUcaH2nSAxuexrjicmy3Lk-KnFzmC_1sB8KeSVQ4SvUiynOxG3MmPoib4RFNhn5luiBdDenERoDp7SKHCrF6GagM3AmKxRUoNhbaAgw87VX6RxzS2M7ljKSNz0mI4)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/4.png)
 
  > 圖4  是否安裝JRE
 
 JDK中已經包含了JRE，無需再次安裝，點擊“取消”即可。
 
-![](https://lh3.googleusercontent.com/77UcU4bj7nJT59DaTnkEOudTe3-AzVYccEbbGi6MlK9BzsUZEmi1rL77nKcT865N6y9IBArwQdXA3ykSgnWgJfBxEaN5w1bPPfJt3qObwljs2dcZxExurYXlx1g8S1whXTvJqqAE)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/5.png)
 
  > 圖5  確認取消
 
 
 
-![](https://lh5.googleusercontent.com/UDgUNFnUSD74ALTp_YCa6rHa8YYc01atTlofJ2BW4By4A2yQ5D_JukwZEjJAeFweK6Z6_yqzAR5NWxTR1KN-D0Y7SPNznzh6gFjUT8VxjZPN7MzPKmJNmhOgoKoQ3xPXM4sfi1WR)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/6.png)
 
  > 圖6  完成安裝
 
@@ -101,7 +101,7 @@ Eclipse的下載地址為：http://www.eclipse.org/downloads/
 
 打開連結，看到下面的頁面：
 
-![](https://lh3.googleusercontent.com/bXjZ1HEe5kMdh-8ZxXGyCL3GznX4cHRW_ZHW3sJU0DM29OxvmX5xZVmRG5wt1q29tmaPI78X-LVrULnxKVs5r3amMAtLXaihsewVF5cXGBmS4LAnL3i_62Ja3PkEsZG8Mfgt3UoY)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/7.png)
 
  > 圖7  Eclipse 下載頁面
 
@@ -109,7 +109,7 @@ Eclipse的下載地址為：http://www.eclipse.org/downloads/
 
 Eclipse 是免安裝的，你可以將下載的壓縮檔解壓到任意目錄，以後也可以隨意更換目錄。第一次啟動Eclipse，會要求你設置預設的工程目錄，你可以只設置一次，也可以每次啟動都設置。
 
-![](https://lh6.googleusercontent.com/17Ou4VsrX7445KUqiWtXU7Yzy3Ppdbb-3Xlk49fsjwzURbN6PSU5YOQyDaHUZaot4ViGcE4wbalufWzDRfpVO_yfmN8uDJSc1rLQ9eL5hXkktt_JlJb7rQme7LTES7rSMLCzAnDG)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/8.png)
 
  > 圖8  設置工程目錄
 
@@ -123,21 +123,21 @@ Eclipse 默認是英文的，如果你的英文能力比較弱，可以安裝簡
 
 首先查看你當前安裝的Eclipse的版本。在Eclipse功能表列中選擇“Help --> About Eclipse”，彈出一個對話方塊：
 
-![](https://lh3.googleusercontent.com/PJmQ3EhWC_iYGvS6zQSNmZD9ydRxgx-IndrUcfmcuRHZXD5htUhjSiuRKja1q57dUd8x8DEpN6sQHcHR3MbsD7Ne5_EiRtm8-wzmg0nspn_vSF-IhvXbyjY9KttZ3767_Uy5MT0I)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/9.png)
 
  > 圖9  查看Eclipse版本
 
 打開連結，向下滾動滑鼠，下載對應版本的語言包：
 
-![](https://lh5.googleusercontent.com/-A9wbg-FOvx90wT5_FrTc9E55vcNq_piyeJzikBK6F63z4Ho-uzCJdyNxYnW5mqw6LxzRxgHvh-_vzIuyaZwhRLaZp-8c6RpXW0_ADtaYPbGesaFyyrG4ko8XpCKVpyxpPYvyMVd)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/10.png)
 
-![](https://lh5.googleusercontent.com/UonWX7dllSb-EyM9MODgHXX3KIOLFJIHMEtoO42hDk8Uu4aOoYvwIG15wHqfMv_5M5PzIsrUBmP0trnRT3GKvNX8p7vzYhXUrua_iWkwUFfh26IrLVtLXkoGB6F2873SOFLU8nR0)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/11.png)
 
  > 圖10  對應版本的語言包
 
 進入下載頁面，找到簡體中文語言包：
 
-![](https://lh4.googleusercontent.com/BfF3RrJuJbSRE972bSVYyilcIpJMRwd1T6sCA3mkUeEgVhmccDsPLJ4PQojdIOtV0oTng0fbbr0VKxg5Ztza3d9RI39fwyDFXlmfcMPLOMtYJUlLnkP49vGjdOkBx_xPLOqTg5cJ)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/12.png)
 
  > 圖11  中文語言包
 
@@ -145,7 +145,7 @@ Eclipse 默認是英文的，如果你的英文能力比較弱，可以安裝簡
 
 將下載到的檔解壓，得到一個名為eclipse的資料夾，它裡面包含兩個資料夾：features和plugins，複製features和plugins到你的eclipse安裝目錄，覆蓋原程式檔即可。
 
-![](https://lh6.googleusercontent.com/xtFrapBesGUJe78Jb8pj0VDX7RUr-7vYJa5vVXqB99IiqgA2ysOl_iSruYKl9sqkogTYd6Yv65AApDVa_pkuRAsAnZPE9h-ADa7gRSV2UvpG64oAmf6cNpMy6Rl544Agl_GAzeW9)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/搭建Java開發環境(JDK和Eclipse的安裝與中文化教學)/13.png)
 
  > 圖 12  覆蓋原來的文件
 
