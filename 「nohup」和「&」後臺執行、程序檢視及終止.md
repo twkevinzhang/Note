@@ -1,11 +1,11 @@
 # 「nohup」和「&」後臺執行、程序檢視及終止
 ###### tags:`Linux` `cmd`
-參考至:
- - https://www.itread01.com/content/1548984246.html
- - https://dragonspring.pixnet.net/blog/post/33257496
+## 參考
+ - [[itread01] nohup和&後臺執行，程序檢視及終止](https://www.itread01.com/content/1548984246.html)
+ - [[pixnet] 讓command在遠端執行，不因登出而中斷](https://dragonspring.pixnet.net/blog/post/33257496)
 
 ### nohup用途
-    不掛斷地執行命令。
+不掛斷地執行命令。
 
 ### nohup語法
     nohup [Command] [Arg...] [&]

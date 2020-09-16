@@ -1,9 +1,7 @@
 # Android Studio-Error while Installing APKs
-###### tags:`Android Studio` `IDE` `error`
- 參考至:
-  - https://dotblogs.com.tw/jgame2012/archive/2012/04/06/71311.aspx
+###### tags:`Android Studio` `IDE`
 
-### 如下問題:
+## 錯誤描述:
 
 > Error while Installing APKs
 
@@ -48,3 +46,6 @@
 3. 點擊Build>Rebuild Project
 
 4. 再將上面的步驟做一遍
+
+## 參考
+  - https://dotblogs.com.tw/jgame2012/archive/2012/04/06/71311.aspx

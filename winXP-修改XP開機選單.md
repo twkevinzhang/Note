@@ -1,5 +1,5 @@
 # winXP-修改XP開機選單
-###### tags:`開機選單` `windows` `winXP` `開機`
+###### tags:`windows` `開機選單`  `winXP`
 
 參考至:
  - https://sites.google.com/site/yang198510/xp-kai-ji-xuan-dan-xiu-gai
@@ -13,7 +13,7 @@
 
     [operating systems]
 
-    multi(0)disk(0)rdisk(0)partition(1)\WINDOWS=“Microsoft Windows XP Professional” /noexecute=optin /fastdetect
+    multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional" /noexecute=optin /fastdetect
 
 這行以下都刪掉..然後儲存
 

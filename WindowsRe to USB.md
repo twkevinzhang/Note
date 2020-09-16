@@ -1,5 +1,5 @@
 # WindowsRe to USB
-###### tags:`WinRe` `WindowsRe to USB` `windows` `win7` `USB開機隨身碟`
+###### tags:`WinRe` `WindowsRe to USB` `windows` `windows 7` `USB開機隨身碟`
 以下以windows7 x64為例，實測windows10也可以使用
 
 參考至:
@@ -141,13 +141,13 @@ Winre 開機後會檢查 Windows 版本，來決定是否進入 Winre 系統，�
 ![](https://lh6.googleusercontent.com/pM5hSwN2lMRlSiuM86VJREsDQ9KmQlyvmxh7oF4E0Clf0lPk5boVfyr2A9Zg4dy6a0Xxuvlp_8GlVKfXxLN_deEzMUDaxWD6qx3FbkkqfpGfcwxgYfQpy9x2s5pqPgizhWl06YiX)
 
 4.  將下方 AppPath 路徑改為 cmd.exe 路徑
-更改前：
+更改前: 
 
     [LaunchApp]
 
     AppPath=X:\sources\recovery\recenv.exe
 
-更改後：
+更改後: 
     [LaunchApp]
 
     AppPath=X:\Windows\System32\cmd.exe
