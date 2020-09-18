@@ -1,22 +1,24 @@
 # WindowsRe to USB
 ###### tags:`WinRe` `WindowsRe to USB` `windows` `windows 7` `USB開機隨身碟`
-以下以windows7 x64為例，實測windows10也可以使用
 
-參考至:
- - http://iammic.pixnet.net/blog/post/65789494-%E6%89%8B%E5%8B%95%E5%BB%BA%E7%AB%8B-windows7-x64-usb-%E9%96%8B%E6%A9%9F%28%E6%95%91%E6%8F%B4%29%E9%9A%A8%E8%BA%AB%E7%A2%9F%28legacy
-  - http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793
+## 參考
+ - [[pixnet] 手動建立 Windows7 x64 USB 開機(救援)隨身碟(Legacy UEFI)](http://iammic.pixnet.net/blog/post/65789494-手動建立-windows7-x64-usb-開機%28救援%29隨身碟%28legacy)
+  - [[edu] 將 install.esd 轉換成 install.wim](http://blog.ilc.edu.tw/blog/index.php?op=printView&articleId=488747&blogId=25793)
 
-## 注意
+## 事前準備
+ - 建置前需要準備 Windows 7 x64 安裝光碟與 USB 隨身碟
 
-1.  建置前需要準備 Windows 7 x64 安裝光碟與 USB 隨身碟
-2.  使用 Windows 7 x64建置完成的 USB 隨身碟不支援 32 位元程式，如果需要執行 32 位元程式，需使用 Windows 7 32位元安裝光碟進行建置。
+## 認識與注意: 
+ - 以下以windows7 x64為例，實測windows10也可以使用
+ - 使用 Windows 7 x64建置完成的 USB 隨身碟不支援 32 位元程式，如果需要執行 32 位元程式，需使用 Windows 7 32位元安裝光碟進行建置。
 
-## 執行 diskpart
+## 步驟
+### 執行 diskpart
 
 1.  使用管理者權限開啟命令提示字元。
 2.  輸入 `diskpart` 指令。
 
-## 清空 USB 隨身碟 (隨身碟為磁碟 2 7400MB)
+### 清空 USB 隨身碟 (隨身碟為磁碟 2 7400MB)
 
 1.  輸入 `list disk` 查看磁碟
 2.  輸入 `select disk 2` 選擇磁碟 2
@@ -24,7 +26,7 @@
 
 ![](https://lh6.googleusercontent.com/Ut5s9N3mULsGLhIqI_3e-VJrwYPRnAflOWOQ67CdErApqmUgRLbQ_d8TvbjM722OVntHQXdnxrayIUDSa_1HuBjSMbgV9P56F8deVCkXToaOSpZQonu6olU4GH8V5T1sFB05cH1R)
 
-## 建立 partition 與 format
+### 建立 partition 與 format
 
 1.  輸入 `create partition primary` 建立
 2.  輸入 `format fs=fat32 quick` 將隨身碟 format 為 fat32 格式
@@ -33,7 +35,7 @@
 
 ![](https://lh4.googleusercontent.com/X5eIZYExS8PR7HVw7nGSmogfkxjE_n9imkTDWBRHo9kfbHkG3gFbiw3-prVXxbf0qqb5ThJLAb_kZpwVbyDZil9KA2F_Hq9-hQ6O2WDbQcTOU2SLI-9YZ8czWMWCntCrdHVJAMw1)
 
-## 設定 Partition ative
+### 設定 Partition ative
 
 1.  輸入 select partition 1 選擇分割區 1
 2.  輸入 active 設定該分割區為 active
@@ -41,7 +43,7 @@
 
 ![](https://lh5.googleusercontent.com/PeF-5wDuaCLWgDfKR82dI6h9A6fea9upYHm78iuPcgEUaRbBLK9KRU-JpLgu68TnSUPIfObDB0GUKRetSAxHcJXB3tyB3ByUroxGVH84KQ-GMnpnuoGssxxCCekxLW3BGJB7Ndey)
 
-## 設定 USB Boot
+### 設定 USB Boot
 
 1.  輸入 `exit` 離開 diskpart，之後將Windows 7 光碟放進光碟機 。(目前本機中的光碟機位於 D 槽)
 2.  輸入 `D:` 跳到光碟機。
@@ -57,7 +59,7 @@
 2.  輸入 `xcopy d:\efi /s /e /f e:\efi`後輸入 `D` ( 將 efi 目錄 copy 到隨身碟 )
 3.  輸入 `copy bootmgr* e:\` ( 將 bootmgr 與 bootmgr.efi 兩個檔案 copy 到隨身碟 )
 
-## 擷取 WinRE.wim
+### 擷取 WinRE.wim
 
 1.  輸入 `mkdir c:\test`在 C 槽中建立 test 目錄
 2.  輸入 `copy d:\sources\install.wim c:\` 將Windows 安裝光碟中的 Install.wim 檔案 copy 到 c槽。
@@ -83,7 +85,7 @@
 
 ![](https://lh3.googleusercontent.com/SiSEwrjdfplIy_rOlKhLdH_sumWtxH1PXHOlKjV-4kphg94twEZ9RbpOo2LzDAdVFpicWy_whPfaxUPUso8qNYCPl4rj_bCsY1Fa-voW-u2ihtXu5xpzaReRCPNVzGCWjtlYEV4t)
 
-## 設定 BCD (Legacy Boot)
+### 設定 BCD (Legacy Boot)
 
 1.  開啟 Bootice 程式，選擇 BCD 編輯頁籤 -> 其他BCD檔案 -> 選擇 e:\boot\bcd後點選高級編輯模式。可到以下網址下載:
 
@@ -100,7 +102,7 @@
 
 ![](https://lh4.googleusercontent.com/xu6lTpcfiNV64SRNx9NJCDzjidSSltHq17TuGtaHA0Nemm3gjZi3DyoAgy9UXR21s_FlD4IiExd3QjIPLM7ui4Y61vKQACcP_M64XoPxB5ON4o868KDPfFVUuGU_s07a5x8GN502)
 
-## (UEFI Boot)
+### (UEFI Boot)
 
 1.  開啟 Bootice 程式，選擇 BCD 編輯頁籤 -> 其他BCD檔案 -> 選擇 `e:\efi\microsoft\boot\bcd`後點選高級編輯模式。
 
@@ -114,7 +116,7 @@
 
 ![](https://lh3.googleusercontent.com/Asmday1bczUdI7TYrKeK8y27UWyXIA4azCLvujRZ_MZlUrdwnpivV3QuICvslnFru-0gq9p-i05_BAkLUIz4nxBxFrj8brHRvoCKYCcQ250WXX4UDXJ0i_Rpbd6Lqed7JuAjfiCm)
 
-## USB 隨身碟開機
+### USB 隨身碟開機
 
 之後使用 USB 隨身碟開機，就可以進入 Winre
 
@@ -128,7 +130,7 @@
 
 ![](https://lh4.googleusercontent.com/ygXgUH-nfkkZuCnjziG9vQndXlbcjtyj9cMmFdLkADC5mQWhLgPC-ChbZ2fLYva8OniTm9E9YDxgn4-s92QJVcFfzhk7CzHc-RAy5r5aGNmJkA-IAceGKQOezPrw5DZ__7_l8epd)
 
-## USB 隨身碟開機後自動啟動命令提示字元
+### USB 隨身碟開機後自動啟動命令提示字元
 
 Winre 開機後會檢查 Windows 版本，來決定是否進入 Winre 系統，這裡將把這個檢測動作關閉，並自動開啟命令提示字元。
 
