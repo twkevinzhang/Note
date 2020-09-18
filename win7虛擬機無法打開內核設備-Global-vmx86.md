@@ -10,19 +10,19 @@
 ### step.1
 
 開始 - 運行 (輸入CMD)- 確定或者Enter，打開管理員命令視窗；
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/1.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/1.jpg)
 
 ### step.2
 
 我們先複製net start vmci，左鍵點擊管理員命令視窗左邊的小方框 - 編輯 - 粘貼，再按回車鍵 (Enter):
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/2.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/2.jpg)
 
 ### step.3
 
 可見: 請求的服務已經啟動。再複製net start vmx86，左鍵點擊管理員命令視窗左邊的小方框 - 編輯 - 粘貼，再按回車鍵 (Enter);
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/3.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/3.jpg)
 
 ### step.4
 
@@ -47,22 +47,22 @@ sc config VMnetuserif=auto
 ```
 
 并且每输入一次，都要按一次回车键 (Enter)
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/4.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/4.jpg)
 
 ### step.5
 
 如果無法運行命令，則從 VMware Workstation安裝目錄，複製 `vmx86.sys` (或者是`vmx64.sys`)和 `vmci.sys`文件；
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/5.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/5.jpg)
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/6.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/6.jpg)
 ### step.6
 
 我們打開`c:\windows\system32\drivers`，把`vmx86.sys`和 `vmci.sys`文件粘貼進去；
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/7.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/7.jpg)
 
-![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/8.png)
+![](https://raw.githubusercontent.com/neslxzhen/Note/master/img/win7虛擬機無法打開內核設備-Global-vmx86/8.jpg)
 
 ### Fin.
 
