@@ -47,3 +47,6 @@
 
 ### 終止後臺程序
     kill -9 [PID]
+    
+### 查看實時輸出
+    tail -f nohup.out
