@@ -49,4 +49,6 @@
     kill -9 [PID]
     
 ### 查看實時輸出
-    tail -f nohup.out
+兩種方式
+ - `tail -f nohup.out`
+ - `while [ 1 ]; do sleep 1; clear; tail nohup.out; done`
