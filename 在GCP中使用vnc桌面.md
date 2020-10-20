@@ -1,5 +1,5 @@
-# 在GCP-VM中使用桌面
-###### tags:`GCP` `Linux` `remote` `Google(其他關鍵字)
+# 在GCP-VM中使用vnc桌面
+###### tags:`GCP` `Linux` `remote` `Google` `vnc`
 
 ## 參考
  - [[github.io] 在GCP開啟Ubuntu遠端桌面](https://infinitewing.github.io/2017/08/13/20170813001/)
